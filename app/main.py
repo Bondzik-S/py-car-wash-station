@@ -19,7 +19,7 @@ class CarWashStation:
         self.average_rating = average_rating
         self.count_of_ratings = count_of_ratings
 
-    def serve_cars(self, cars: list[Car]) -> None:
+    def serve_cars(self, cars: list[Car]) -> float:
         total_price = 0
 
         for car in cars:
